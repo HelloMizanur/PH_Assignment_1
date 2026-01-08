@@ -50,6 +50,19 @@
     border: none;
 }
 
+.heading_text h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.heading_text p{
+    font-size: 16px;
+    font-weight: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
 /* Navigation section */
 
 nav {
@@ -131,3 +144,47 @@ nav {
 }
 
 /* Notes Section */
+#notes{
+    padding: 70px 0;
+}
+.notes_section {
+    text-align: center;
+
+}
+
+.notes_item{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.note_card{
+    padding: 70px 24px;
+    border: 1px solid #605f5f80;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+.note_card:hover{
+    background-color: #f9555536;
+}
+.note_card img{
+    background-color: #F95555;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.note_card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.note_card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
