@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.btn {
+.btn1 {
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
@@ -27,15 +27,32 @@
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #FFFFFF;
+.btn1:hover {
+    background-color: transparent;
     color: #30B868;
     border: 2px solid #30B868;
 }
 
+.btn2 {
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 11px 15px;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+.btn2:hover{
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+}
+
 /* Navigation section */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,3 +76,58 @@ nav{
     border-bottom: 2px solid #006A50;
 }
 /* Banner Section */
+#banner{
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.banner_section h5{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: inline;
+    padding: 8px 12px;
+}
+.banner_section h5 .sp1{
+    width: 16px;
+    height: 16px;
+    display: inline-block;        
+    border-radius: 50%;          
+    background: radial-gradient(circle, #30B868 0%, #A8E6B3 100%); 
+    margin-right: 8px;          
+    vertical-align: middle;  
+}
+
+.banner_section h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    margin: 15px 0;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+.banner_section h1 .sp2{
+    color: #30B868;
+}
+.banner_section p{
+    line-height: 24px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 0 330px;
+    margin-bottom: 30px;
+}
+.banner_btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.banner_btn .btn1 img{
+    vertical-align: middle; 
+}
+
+/* Notes Section */
