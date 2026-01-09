@@ -90,7 +90,7 @@ nav {
 }
 /* Banner Section */
 #banner{
-    background-image: url('../assets/hero-bg.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     padding: 120px 0;
@@ -140,6 +140,9 @@ nav {
     margin-bottom: 60px;
 }
 .banner_btn .btn1 img{
+    vertical-align: middle; 
+}
+.banner_btn .btn2 img{
     vertical-align: middle; 
 }
 
@@ -258,9 +261,15 @@ nav {
 }
 .social_linnk span{
     font-size: 20px;
-    color: #000000;
     padding-top: 5px;
-    
+}
+.social_linnk span a{
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease
+}
+.social_linnk span a:hover {
+    color: #007bff;
 }
 .social_linnk span i{
     background-color: #FFFFFF;
