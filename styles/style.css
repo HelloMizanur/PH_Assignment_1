@@ -188,3 +188,100 @@ nav {
     line-height: 20px;
     color: #627382;
 }
+
+/* Notes Banner */
+
+.nBanner_section{
+    display: flex;
+    gap: 60px;
+}
+.nBanner_text{
+    padding: 110px 150px 110px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nabanner_img img{
+    width: 600px;
+}
+.nBanner_section h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+.nBanner_list{
+    padding-top: 15px;
+}
+.nBanner_list ul li{
+    list-style-type: none;
+    color: #001931;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.nBanner_list ul li img{
+    vertical-align:middle;
+    margin-right: 10px;
+}
+
+/* Think section */
+
+.think_section{
+    background-color: #62738244;
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.think_section p{
+    margin-bottom: 15px;
+}
+.think_section img{
+    vertical-align: middle;
+}
+/* Footer section */
+#footer{
+    background-color: #001931;
+    padding-top: 120px;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_linnk p{
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 10px;
+    
+}
+.social_linnk span{
+    font-size: 20px;
+    color: #000000;
+    padding-top: 5px;
+    
+}
+.social_linnk span i{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+.liner{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    height: 2px;
+    width: 100%;
+    background-color: #6273824e;
+}
+.copy{
+    text-align: center;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
